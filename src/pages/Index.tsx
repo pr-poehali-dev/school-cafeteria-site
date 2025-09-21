@@ -13,6 +13,24 @@ const Index = () => {
       category: "Горячие блюда",
       image: "/img/58c838b3-483e-4531-9447-9acb40add07a.jpg",
       popular: true
+    },
+    {
+      id: 2,
+      name: "Булочка",
+      description: "Свежая булочка",
+      price: 42,
+      category: "Выпечка",
+      image: "/img/9469012c-35fc-40b7-a4a5-f183a417938c.jpg",
+      popular: false
+    },
+    {
+      id: 3,
+      name: "Пицца",
+      description: "Вкусная пицца",
+      price: 50,
+      category: "Горячие блюда",
+      image: "/img/58c838b3-483e-4531-9447-9acb40add07a.jpg",
+      popular: false
     }
   ];
 
