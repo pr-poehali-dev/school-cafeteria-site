@@ -4,62 +4,7 @@ import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
 
 const Index = () => {
-  const menuItems = [
-    {
-      id: 1,
-      name: "Борщ домашний",
-      description: "Наваристый борщ со сметаной и зеленью",
-      price: 45,
-      category: "Первые блюда",
-      image: "/img/9469012c-35fc-40b7-a4a5-f183a417938c.jpg",
-      popular: true
-    },
-    {
-      id: 2,
-      name: "Котлета куриная с пюре",
-      description: "Сочная котлета из куриного фарша с картофельным пюре",
-      price: 85,
-      category: "Горячие блюда",
-      image: "/img/58c838b3-483e-4531-9447-9acb40add07a.jpg",
-      popular: true
-    },
-    {
-      id: 3,
-      name: "Салат овощной",
-      description: "Свежие овощи с подсолнечным маслом",
-      price: 35,
-      category: "Салаты",
-      image: "/img/9469012c-35fc-40b7-a4a5-f183a417938c.jpg",
-      popular: false
-    },
-    {
-      id: 4,
-      name: "Гречка с мясом",
-      description: "Рассыпчатая гречка с тушеным мясом",
-      price: 75,
-      category: "Горячие блюда",
-      image: "/img/58c838b3-483e-4531-9447-9acb40add07a.jpg",
-      popular: false
-    },
-    {
-      id: 5,
-      name: "Компот из сухофруктов",
-      description: "Домашний компот из сухофруктов",
-      price: 20,
-      category: "Напитки",
-      image: "/img/9469012c-35fc-40b7-a4a5-f183a417938c.jpg",
-      popular: false
-    },
-    {
-      id: 6,
-      name: "Булочка с маком",
-      description: "Свежая выпечка с маковой начинкой",
-      price: 25,
-      category: "Выпечка",
-      image: "/img/58c838b3-483e-4531-9447-9acb40add07a.jpg",
-      popular: false
-    }
-  ];
+  const menuItems: any[] = [];
 
   const comboMeals = [
     {
