@@ -6,32 +6,7 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   const menuItems: any[] = [];
 
-  const comboMeals = [
-    {
-      id: 1,
-      name: "Комплекс №1",
-      description: "Борщ + Котлета с пюре + Салат + Компот",
-      price: 150,
-      originalPrice: 185,
-      items: ["Борщ домашний", "Котлета куриная с пюре", "Салат овощной", "Компот"]
-    },
-    {
-      id: 2,
-      name: "Комплекс №2", 
-      description: "Суп + Гречка с мясом + Булочка + Чай",
-      price: 120,
-      originalPrice: 145,
-      items: ["Суп куриный", "Гречка с мясом", "Булочка с маком", "Чай сладкий"]
-    },
-    {
-      id: 3,
-      name: "Легкий обед",
-      description: "Салат + Булочка + Компот",
-      price: 65,
-      originalPrice: 80,
-      items: ["Салат овощной", "Булочка с маком", "Компот из сухофруктов"]
-    }
-  ];
+  const comboMeals: any[] = [];
 
   const categories = ["Все", "Первые блюда", "Горячие блюда", "Салаты", "Напитки", "Выпечка"];
 
