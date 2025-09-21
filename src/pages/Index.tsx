@@ -4,7 +4,17 @@ import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
 
 const Index = () => {
-  const menuItems: any[] = [];
+  const menuItems = [
+    {
+      id: 1,
+      name: "Горячее питание",
+      description: "Комплексное горячее питание",
+      price: 140,
+      category: "Горячие блюда",
+      image: "/img/58c838b3-483e-4531-9447-9acb40add07a.jpg",
+      popular: true
+    }
+  ];
 
   const comboMeals: any[] = [];
 
